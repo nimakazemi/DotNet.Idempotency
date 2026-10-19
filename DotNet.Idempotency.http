@@ -1,0 +1,12 @@
+@DotNet.Idempotency_HostAddress = https://localhost:7135
+
+POST {{DotNet.Idempotency_HostAddress}}/orders
+Content-Type: application/json
+
+{
+  "customerName": "Nima",
+  "productName": "Mouse",
+  "quantity": 3
+}
+
+###
